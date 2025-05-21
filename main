@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wahr oder Falsch? – Desinformation erkennen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .hero {
+      background-image: url('1.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="hero h-screen flex items-center justify-center text-white overlay">
+    <div class="text-center px-4" data-aos="fade-up">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Wahr oder Falsch?</h1>
+      <p class="text-xl md:text-2xl mb-6">Desinformation durch KI – erkennen, verstehen, handeln.</p>
+      <a href="#section1" class="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-full text-white font-semibold">Mehr erfahren</a>
+    </div>
+  </section>
+
+  <!-- Section 1: Was ist Desinformation -->
+  <section id="section1" class="py-20 px-6 max-w-5xl mx-auto" data-aos="fade-right">
+    <h2 class="text-3xl font-semibold mb-4">Was ist Desinformation?</h2>
+    <p class="text-lg mb-6">Desinformation ist die gezielte Verbreitung falscher oder irreführender Informationen, oft mit dem Ziel, gesellschaftliche Spaltung zu erzeugen. Mit Hilfe von KI verbreiten sich Lügen schneller und glaubwürdiger als je zuvor.</p>
+    <img src="2.jpg" alt="Fake News" class="rounded-lg shadow-lg">
+  </section>
+
+  <!-- Section 2: Wie KI Desinformation beschleunigt -->
+  <section class="py-20 px-6 bg-gray-100" data-aos="fade-left">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-4">Wie KI Desinformation beschleunigt</h2>
+      <p class="text-lg mb-6">KI kann täuschend echte Inhalte erzeugen: Deepfakes, Fake-Profile und automatische Bots machen es einfach, Menschen gezielt zu manipulieren.</p>
+      <div class="grid md:grid-cols-2 gap-8">
+        <img src="3.png" alt="KI Illustration" class="rounded-lg shadow">
+        <ul class="list-disc list-inside">
+          <li>Deepfakes – Videos, die echte Menschen imitieren</li>
+          <li>Soziale Bots – automatisierte Verbreitung</li>
+          <li>Emotionale Manipulation durch gezielte Inhalte</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Folgen -->
+  <section class="py-20 px-6 max-w-5xl mx-auto" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold mb-4">Wenn Wahrheit relativ wird</h2>
+    <p class="text-lg mb-6">Wenn niemand mehr weiß, was wahr ist, schwindet Vertrauen – in Medien, Politik und Mitmenschen. Die Gesellschaft wird anfälliger für Spaltung und Radikalisierung.</p>
+    <img src="https://images.unsplash.com/photo-1604881991720-bdbfa7cb0b30?auto=format&fit=crop&w=1470&q=80" alt="Konflikt" class="rounded-lg shadow">
+  </section>
+
+  <!-- Section 4: Erkennen & Handeln -->
+  <section class="py-20 px-6 bg-blue-50" data-aos="fade-right">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-4">Wie erkenne ich Desinformation?</h2>
+      <ul class="list-decimal list-inside text-lg space-y-2">
+        <li>Wer ist die Quelle der Information?</li>
+        <li>Gibt es unabhängige Bestätigungen?</li>
+        <li>Ist der Ton emotional aufgeladen?</li>
+        <li>Fehlen Beweise oder werden sie manipuliert?</li>
+        <li>Gibt es Hinweise auf KI-Generierung?</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section 5: Was wir tun können -->
+  <section class="py-20 px-6 max-w-5xl mx-auto" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold mb-4">Was wir tun können</h2>
+    <p class="text-lg mb-6">Mit Bildung, Medienkompetenz und Zusammenarbeit können wir Desinformation entlarven und ihr die Macht nehmen.</p>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl shadow p-6">
+        <h3 class="font-bold text-xl mb-2">Medienkompetenz fördern</h3>
+        <p>Workshops und Schulen stärken kritisches Denken.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h3 class="font-bold text-xl mb-2">Faktencheck nutzen</h3>
+        <p>Correctiv, Mimikama und Co. helfen bei der Verifikation.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h3 class="font-bold text-xl mb-2">KI verantwortungsvoll einsetzen</h3>
+        <p>Entwickler und Nutzer tragen Verantwortung.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-10 text-center">
+    <p class="mb-2">© 2025 Wahr oder Falsch? – Eine Initiative für Aufklärung</p>
+    <a href="#" class="underline">Kontakt | Datenschutz | Impressum</a>
+ <p class="mb-2">Quellen
+https://de.statista.com/statistik/daten/studie/1295881/umfrage/gruende-fuer-mangelndes-vertrauen-in-ki-services-weltweit/
+https://www.haufe.de/personal/hr-management/streitkulturindex-fuer-unternehmen-in-deutschland_80_342594.html
+https://sosafe-awareness.com/de/blog/wie-sie-deepfakes-zielsicher-erkennen/</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
